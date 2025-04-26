@@ -4,6 +4,21 @@
              xmlns:local="clr-namespace:SkalochkinFedor_ISP321_MasterFloor"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-         
+        <Style TargetType="TextBox">
+            <Setter Property="FontFamily" Value="Comic Sans MS"></Setter>
+            <Setter Property="FontSize" Value="20"></Setter>
+        </Style>
+        <Style TargetType="PasswordBox">
+            <Setter Property="FontFamily" Value="Comic Sans MS"></Setter>
+            <Setter Property="FontSize" Value="20"></Setter>
+        </Style>
+        <Style TargetType="Label">
+            <Setter Property="FontFamily" Value="Comic Sans MS"></Setter>
+            <Setter Property="FontSize" Value="20"></Setter>
+        </Style>
+        <Style TargetType="TextBlock">
+            <Setter Property="FontFamily" Value="Comic Sans MS"></Setter>
+            <Setter Property="FontSize" Value="20"></Setter>
+        </Style>
     </Application.Resources>
 </Application>

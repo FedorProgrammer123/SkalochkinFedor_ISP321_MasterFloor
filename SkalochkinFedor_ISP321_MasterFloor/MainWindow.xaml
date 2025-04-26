@@ -5,8 +5,16 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:SkalochkinFedor_ISP321_MasterFloor"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Мастер пол" Height="750" Width="800" MinWidth="800" MinHeight="450" MaxWidth="1000" MaxHeight="800" Icon="/Resources/logo.ico" WindowStartupLocation="CenterOwner">
     <Grid>
-        
+        <Grid.RowDefinitions>
+            <RowDefinition Height="70"></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0" Background="#F4E8D3">
+            <Label Content="Мастер пол" HorizontalAlignment="Center" VerticalAlignment="Center"></Label>
+            <Image Source="Resources/logo.png" HorizontalAlignment="Left"></Image>
+        </Grid>
+        <Frame x:Name="MainFrame" Grid.Row="1" NavigationUIVisibility="Hidden"></Frame>
     </Grid>
 </Window>

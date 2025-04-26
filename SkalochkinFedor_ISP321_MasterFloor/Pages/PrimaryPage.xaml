@@ -1,0 +1,53 @@
+﻿<Page x:Class="SkalochkinFedor_ISP321_MasterFloor.Pages.PrimaryPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:SkalochkinFedor_ISP321_MasterFloor.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="PrimaryPage">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="70"></RowDefinition>
+            <RowDefinition Height="300"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0">
+            <TextBlock Text="Программный модуль для учета партнеров" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
+        </Grid>
+        <Grid Grid.Row="1">
+            <ListView x:Name="ShowPartners">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+                            <TextBlock>
+                                <Run Text="Тип:"></Run>
+                                <Run Text="{Binding PartnerType.TypePartner}"></Run>
+                                <Run Text="|"></Run>
+                                <Run Text="Наименование:"></Run>
+                                <Run Text="{Binding TitlePartner.PartnerTitle}"></Run>
+                            </TextBlock>
+                            <TextBlock>
+                                <Run Text="Директор:"></Run>
+                                <Run Text="{Binding Female}"></Run>
+                                <Run Text="{Binding Name}"></Run>
+                                <Run Text="{Binding Patronymic}"></Run>
+                            </TextBlock>
+                            <TextBlock Text="{Binding Phone}"></TextBlock>
+                            <TextBlock>
+                                <Run Text="Рейтинг:"></Run>
+                                <Run Text="{Binding Rate}"></Run>
+                            </TextBlock>
+                            <TextBlock Text="10%" HorizontalAlignment="Right" VerticalAlignment="Center"></TextBlock>
+                        </StackPanel>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </Grid>
+        <Grid Grid.Row="2">
+            <Button Content="Добавить пользователя" Name="AddButton" Background="#67BA80" Click="AddButton_Click" Height="100"></Button>
+        </Grid>
+    </Grid>
+</Page>

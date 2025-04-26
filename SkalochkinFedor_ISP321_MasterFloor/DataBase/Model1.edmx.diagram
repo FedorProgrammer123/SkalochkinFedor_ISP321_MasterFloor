@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="d2a5338ce00e43a68280797aa08d1204" Name="Diagram1">
+        <EntityTypeShape EntityType="SkalochkinFedor_ISP321_MasterFloorModel.Address" Width="1.5" PointX="3" PointY="3.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="SkalochkinFedor_ISP321_MasterFloorModel.City" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SkalochkinFedor_ISP321_MasterFloorModel.MaterialTypeImport" Width="1.5" PointX="8.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SkalochkinFedor_ISP321_MasterFloorModel.PartnerProductsImport" Width="1.5" PointX="8" PointY="8.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="SkalochkinFedor_ISP321_MasterFloorModel.PartnersImport" Width="1.5" PointX="6" PointY="3" IsExpanded="true" />
+        <EntityTypeShape EntityType="SkalochkinFedor_ISP321_MasterFloorModel.PartnerType" Width="1.5" PointX="3.75" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SkalochkinFedor_ISP321_MasterFloorModel.PostIndex" Width="1.5" PointX="0.75" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="SkalochkinFedor_ISP321_MasterFloorModel.Product" Width="1.5" PointX="5.75" PointY="10" IsExpanded="true" />
+        <EntityTypeShape EntityType="SkalochkinFedor_ISP321_MasterFloorModel.ProductsImport" Width="1.5" PointX="8" PointY="11.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="SkalochkinFedor_ISP321_MasterFloorModel.ProductTypeImport" Width="1.5" PointX="5.75" PointY="13" IsExpanded="true" />
+        <EntityTypeShape EntityType="SkalochkinFedor_ISP321_MasterFloorModel.Region" Width="1.5" PointX="0.75" PointY="7.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="SkalochkinFedor_ISP321_MasterFloorModel.Street" Width="1.5" PointX="0.75" PointY="9.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SkalochkinFedor_ISP321_MasterFloorModel.sysdiagrams" Width="1.5" PointX="8.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SkalochkinFedor_ISP321_MasterFloorModel.TitlePartner" Width="1.5" PointX="3.75" PointY="7.125" IsExpanded="true" />
+        <AssociationConnector Association="SkalochkinFedor_ISP321_MasterFloorModel.FK_Address_City" ManuallyRouted="false" />
+        <AssociationConnector Association="SkalochkinFedor_ISP321_MasterFloorModel.FK_Address_PostIndex" ManuallyRouted="false" />
+        <AssociationConnector Association="SkalochkinFedor_ISP321_MasterFloorModel.FK_Address_Region" ManuallyRouted="false" />
+        <AssociationConnector Association="SkalochkinFedor_ISP321_MasterFloorModel.FK_Address_Street" ManuallyRouted="false" />
+        <AssociationConnector Association="SkalochkinFedor_ISP321_MasterFloorModel.FK_PartnerProductsImport_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="SkalochkinFedor_ISP321_MasterFloorModel.FK_PartnerProductsImport_TitlePartner" ManuallyRouted="false" />
+        <AssociationConnector Association="SkalochkinFedor_ISP321_MasterFloorModel.FK_PartnersImport_PostIndex" ManuallyRouted="false" />
+        <AssociationConnector Association="SkalochkinFedor_ISP321_MasterFloorModel.FK_PartnersImport_TitlePartner" ManuallyRouted="false" />
+        <AssociationConnector Association="SkalochkinFedor_ISP321_MasterFloorModel.FK_PartnersImport_TypePartner" ManuallyRouted="false" />
+        <AssociationConnector Association="SkalochkinFedor_ISP321_MasterFloorModel.FK_ProductsImport_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="SkalochkinFedor_ISP321_MasterFloorModel.FK_ProductsImport_ProductTypeImport" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

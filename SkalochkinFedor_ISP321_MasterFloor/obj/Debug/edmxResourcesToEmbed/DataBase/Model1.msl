@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Хранилище SkalochkinFedor_ISP321_MasterFloorModelContainer" CdmEntityContainer="SkalochkinFedor_ISP321_MasterFloorEntities1">
+    <EntitySetMapping Name="Address">
+      <EntityTypeMapping TypeName="SkalochkinFedor_ISP321_MasterFloorModel.Address">
+        <MappingFragment StoreEntitySet="Address">
+          <ScalarProperty Name="IDAddress" ColumnName="IDAddress" />
+          <ScalarProperty Name="PostIndexID" ColumnName="PostIndexID" />
+          <ScalarProperty Name="RegionID" ColumnName="RegionID" />
+          <ScalarProperty Name="CityID" ColumnName="CityID" />
+          <ScalarProperty Name="StreetID" ColumnName="StreetID" />
+          <ScalarProperty Name="House" ColumnName="House" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="City">
+      <EntityTypeMapping TypeName="SkalochkinFedor_ISP321_MasterFloorModel.City">
+        <MappingFragment StoreEntitySet="City">
+          <ScalarProperty Name="IDCity" ColumnName="IDCity" />
+          <ScalarProperty Name="City1" ColumnName="City" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MaterialTypeImport">
+      <EntityTypeMapping TypeName="SkalochkinFedor_ISP321_MasterFloorModel.MaterialTypeImport">
+        <MappingFragment StoreEntitySet="MaterialTypeImport">
+          <ScalarProperty Name="IDMaterialType" ColumnName="IDMaterialType" />
+          <ScalarProperty Name="MaterialType" ColumnName="MaterialType" />
+          <ScalarProperty Name="PercentDeffect" ColumnName="PercentDeffect" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PartnerProductsImport">
+      <EntityTypeMapping TypeName="SkalochkinFedor_ISP321_MasterFloorModel.PartnerProductsImport">
+        <MappingFragment StoreEntitySet="PartnerProductsImport">
+          <ScalarProperty Name="PartnerProductID" ColumnName="PartnerProductID" />
+          <ScalarProperty Name="ProductID" ColumnName="ProductID" />
+          <ScalarProperty Name="PartnerTitleID" ColumnName="PartnerTitleID" />
+          <ScalarProperty Name="CountProduct" ColumnName="CountProduct" />
+          <ScalarProperty Name="DateSaller" ColumnName="DateSaller" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PartnersImport">
+      <EntityTypeMapping TypeName="SkalochkinFedor_ISP321_MasterFloorModel.PartnersImport">
+        <MappingFragment StoreEntitySet="PartnersImport">
+          <ScalarProperty Name="IDPartnerImport" ColumnName="IDPartnerImport" />
+          <ScalarProperty Name="TypePartnerID" ColumnName="TypePartnerID" />
+          <ScalarProperty Name="TitlePartnerID" ColumnName="TitlePartnerID" />
+          <ScalarProperty Name="Female" ColumnName="Female" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Patronymic" ColumnName="Patronymic" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Phone" ColumnName="Phone" />
+          <ScalarProperty Name="AddressID" ColumnName="AddressID" />
+          <ScalarProperty Name="INN" ColumnName="INN" />
+          <ScalarProperty Name="Rate" ColumnName="Rate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PartnerType">
+      <EntityTypeMapping TypeName="SkalochkinFedor_ISP321_MasterFloorModel.PartnerType">
+        <MappingFragment StoreEntitySet="PartnerType">
+          <ScalarProperty Name="IDTypePartner" ColumnName="IDTypePartner" />
+          <ScalarProperty Name="TypePartner" ColumnName="TypePartner" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PostIndex">
+      <EntityTypeMapping TypeName="SkalochkinFedor_ISP321_MasterFloorModel.PostIndex">
+        <MappingFragment StoreEntitySet="PostIndex">
+          <ScalarProperty Name="IDPostIndex" ColumnName="IDPostIndex" />
+          <ScalarProperty Name="PostIndex1" ColumnName="PostIndex" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Product">
+      <EntityTypeMapping TypeName="SkalochkinFedor_ISP321_MasterFloorModel.Product">
+        <MappingFragment StoreEntitySet="Product">
+          <ScalarProperty Name="IDProduct" ColumnName="IDProduct" />
+          <ScalarProperty Name="ProductName" ColumnName="ProductName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ProductsImport">
+      <EntityTypeMapping TypeName="SkalochkinFedor_ISP321_MasterFloorModel.ProductsImport">
+        <MappingFragment StoreEntitySet="ProductsImport">
+          <ScalarProperty Name="IDProductImport" ColumnName="IDProductImport" />
+          <ScalarProperty Name="TypeProductID" ColumnName="TypeProductID" />
+          <ScalarProperty Name="TitleProductID" ColumnName="TitleProductID" />
+          <ScalarProperty Name="Article" ColumnName="Article" />
+          <ScalarProperty Name="MinPrice" ColumnName="MinPrice" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ProductTypeImport">
+      <EntityTypeMapping TypeName="SkalochkinFedor_ISP321_MasterFloorModel.ProductTypeImport">
+        <MappingFragment StoreEntitySet="ProductTypeImport">
+          <ScalarProperty Name="IDTypeProduct" ColumnName="IDTypeProduct" />
+          <ScalarProperty Name="TypeProduct" ColumnName="TypeProduct" />
+          <ScalarProperty Name="CoeffTypeProduct" ColumnName="CoeffTypeProduct" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Region">
+      <EntityTypeMapping TypeName="SkalochkinFedor_ISP321_MasterFloorModel.Region">
+        <MappingFragment StoreEntitySet="Region">
+          <ScalarProperty Name="IDRegion" ColumnName="IDRegion" />
+          <ScalarProperty Name="Region1" ColumnName="Region" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Street">
+      <EntityTypeMapping TypeName="SkalochkinFedor_ISP321_MasterFloorModel.Street">
+        <MappingFragment StoreEntitySet="Street">
+          <ScalarProperty Name="IDStreet" ColumnName="IDStreet" />
+          <ScalarProperty Name="Street1" ColumnName="Street" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sysdiagrams">
+      <EntityTypeMapping TypeName="SkalochkinFedor_ISP321_MasterFloorModel.sysdiagrams">
+        <MappingFragment StoreEntitySet="sysdiagrams">
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+          <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TitlePartner">
+      <EntityTypeMapping TypeName="SkalochkinFedor_ISP321_MasterFloorModel.TitlePartner">
+        <MappingFragment StoreEntitySet="TitlePartner">
+          <ScalarProperty Name="IDPartnerTitle" ColumnName="IDPartnerTitle" />
+          <ScalarProperty Name="PartnerTitle" ColumnName="PartnerTitle" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
